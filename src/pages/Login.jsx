@@ -1,7 +1,13 @@
-import FormLogin from "../components/atoms/FormLogin";
+import FormLogin from "../components/organism/FormLogin";
+import '../assets/styles/Login.css'
+
 
 function Login() {
-  return <FormLogin></FormLogin>;
+  return ( 
+    <>
+    <FormLogin></FormLogin>
+    </>
+   );
 }
 
 export default Login;

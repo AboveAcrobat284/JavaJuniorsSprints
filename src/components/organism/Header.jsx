@@ -12,7 +12,7 @@ function Header() {
         <>
 
             <section class="tabs">
-                <Link to="/register"><ButtonLogin type={"btn btn-rounded"} value={"Iniciar sesión"}></ButtonLogin></Link>
+                <Link to="/login"><ButtonLogin type={"btn btn-rounded"} value={"Iniciar sesión"}></ButtonLogin></Link>
             </section>
 
             <header class="showcase">
@@ -24,7 +24,7 @@ function Header() {
                 <div class="showcase-content">
                     <Title>¡Si puedes imaginarlo, puedes programarlo!</Title>
                     <TextP>Los mejores en el campo autodidacta</TextP>
-                    <Link to="/"><ButtonRegister type={"btn btn-xl"} value={"Registrarse"}><i></i></ButtonRegister></Link>
+                    <Link to="/register"><ButtonRegister type={"btn btn-xl"} value={"Registrarse"}><i></i></ButtonRegister></Link>
                 </div>
             </header>
 

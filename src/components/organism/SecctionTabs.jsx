@@ -49,7 +49,7 @@ function SecctionTabs() {
 
                                 <Ptext class="text-lg">Somos la mejor herramienta para aquellos autodidactas
                                     amantes de la programación.</Ptext>
-                                <Link to="/"><RegisterTabs type={"btn btn-lg"} value={"¡Registrarse es gratis!"}></RegisterTabs></Link>
+                                <Link to="/register"><RegisterTabs type={"btn btn-lg"} value={"¡Registrarse es gratis!"}></RegisterTabs></Link>
 
 
                             </div>
